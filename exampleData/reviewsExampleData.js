@@ -1,4 +1,4 @@
-const reviewsExampleData = {
+export const reviewsExampleData = {
   status: "OK",
   copyright:
     "Copyright (c) 2018 The New York Times Company. All Rights Reserved.",
@@ -45,5 +45,3 @@ const reviewsExampleData = {
     }
   ]
 };
-
-export default reviewsExampleData;

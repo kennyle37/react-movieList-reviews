@@ -9,7 +9,7 @@ Practice React project
 2. Run npm install from root folder to download dependencies
 3. Take a look at the code base:
   + webpack.config.js file => try to figure out what it does and how it works to use babel to compile React files to ES5.
-    + For more info, read: https://www.valentinog.com/blog/webpack-4-tutorial/ 
+    + For more info, read: https://www.valentinog.com/blog/webpack-4-tutorial/
     + Check out the .babelrc file to see how we are configuring babel
   + Look at the package.json file to see what dependencies we will be using and what scripts we will use to start up the app
   + Look at the SRC folder - and understand the parts
@@ -17,7 +17,7 @@ Practice React project
     + Config folder to put our API keys (more instructions below)
     + Components folder
       + Check out the different components and how they work together
-  + We will be using ES6 ‘import’ statements and ‘export’ing functions in the application instead of putting all files and components on the global scope in the browser: 
+  + We will be using ES6 ‘import’ statements and ‘export’ing functions in the application instead of putting all files and components on the global scope in the browser:
     + https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import
     + https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export
     + https://medium.com/@thejasonfile/a-simple-intro-to-javascript-imports-and-exports-389dd53c3fac

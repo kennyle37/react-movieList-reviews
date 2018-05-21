@@ -1,6 +1,6 @@
 
 // http://www.omdbapi.com/?apikey=[yourKeyHere]&s=avengers
-const moviesExampleData = {
+export const moviesExampleData = {
   "Search": [
     {
       "Title": "The Avengers",
@@ -76,5 +76,3 @@ const moviesExampleData = {
   "totalResults": "92",
   "Response": "True"
 }
-
-export default moviesExampleData;

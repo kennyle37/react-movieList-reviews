@@ -1,3 +1,0 @@
-NYTIMES_API_KEY = "PUT YOUR API KEY HERE";
-
-export default NYTIMES_API_KEY;

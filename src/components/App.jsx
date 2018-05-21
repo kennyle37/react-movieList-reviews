@@ -7,6 +7,10 @@ import MovieListItem from './MovieListItem.jsx';
 import MovieReviews from './MovieReviews.jsx';
 import Search from './Search.jsx';
 
+import {moviesExampleData} from '../../exampleData/moviesExampleData.js';
+import {reviewsExampleData} from '../../exampleData/reviewsExampleData.js';
+
+
 const Wrapper = styled.div`
   display: flex;
   width: 100vw;
@@ -18,7 +22,8 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-
+      videos : moviesExampleData,
+      reviews : reviewsExampleData
     };
 
   }
@@ -27,6 +32,12 @@ class App extends Component {
     return (
       <Wrapper>
         <h1>This is where the app will go!</h1>
+        <div>
+          <MovieList
+            videos={this.state.videos}
+            reviews={this.state.reviews}
+          />
+        </div>
       </Wrapper>
     );
   }
